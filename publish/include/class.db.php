@@ -2,9 +2,12 @@
 class DB {
 	// DB접속정보 설정
 	private $hostname   = "localhost";
-	private $database   = "bekkorea";
-	private $username   = "bekkorea";
-	private $password   = "snowking2018!";
+	// private $database   = "bekkorea";
+	// private $username   = "bekkorea";
+	// private $password   = "snowking2018!";
+	private $database   = "barskorea";
+	private $username   = "root";
+	private $password   = "root";
 	private $portnumber = 3306;
 	private $charset    = "utf8mb4";
 	private $con        = FALSE;
